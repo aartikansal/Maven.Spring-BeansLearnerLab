@@ -6,7 +6,7 @@ import java.util.function.Consumer;
 public abstract class  People<PersonType extends Person> implements Iterable<PersonType>{
     protected List<PersonType> personList;
 
-    public People(List<Instructor> personList){
+    public People(List<PersonType> personList){
         this.personList= personList;
     }
     public boolean add(PersonType personType){
