@@ -1,17 +1,15 @@
 package com.example.demo;
 
 public class Person {
+    protected final Long id;
+    protected String name;
 
-private final long id;
-private String name;
-
-  public Person(long id, String name)  {
-      this.id =id;
-      this.name = name;
-
+    public Person(Long id, String name) {
+        this.id = id;
+        this.name = name;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
@@ -23,4 +21,3 @@ private String name;
         this.name = name;
     }
 }
-

@@ -1,19 +1,19 @@
 package com.example.demo;
 
-public abstract class Student extends Person implements Learner {
-    double totalStudyTime;
+public class Student extends Person implements Learner{
+    private Double totalStudyTime;
 
-    public Student(long id, String name) {
+    public Student(Long id, String name) {
         super(id, name);
+        totalStudyTime = 0D;
     }
 
     @Override
-    public void learn(double numberOfHours) {
+    public void learn(Double numberOfHours) {
         totalStudyTime += numberOfHours;
-
     }
 
-    public double getTotalStudyTime() {
+    public Double getTotalStudyTime() {
         return totalStudyTime;
     }
 }
