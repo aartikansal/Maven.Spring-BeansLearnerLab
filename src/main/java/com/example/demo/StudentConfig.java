@@ -8,19 +8,16 @@ import java.util.ArrayList;
 @Configuration
 public class StudentConfig {
 
-    public static String[] currentStudentsNames = {"Swapna", "Davis", "Julian", "Thao", "Mark", "Katherine",
-            "Neela", "Sean M.", "Will", "Delenda", "Joe", "Ashley B.",
-            "Laxmi", "Yang", "Aswathy", "Swarthi", "Shuchi", "Cara",
-            "Reese", "Sravani", "Cris", "Eric", "Alex", "David",
-            "Ashley", "Brian", "David", "Ashley R.", "Brian", "Eleanor",
-            "Leah", "Nirmala", "Kyle", "Charlie", "Marlys", "Marshilla",
-            "Ajah", "James", "Mike", "Robyn", "Francisco", "Sean R.", "Sunhyun",
-            "Arcy", "Zaina", "Kat"};
+    public static String[] currentStudentsNames = {"April", "David", "Chris", "Sandy", "Maurice", "Leila",
+            "Giles", "Dave",  "Sandeep", "Corey", "Aarti",
+            "Raheel","James", "Ujjwal", "Emily", "Destiny",
+            "Zeth", "Jimmy", "Matt", "Zenetta", "Kevin", "Han",
+            "Von", "Jeremy", "Khalil", "Greg", "Adam",};
 
-    public static String[] previousStudentsNames = {"Khalil", "Kevin", "Ned", "Demetrius", "Andrea", "Ray",
-            "Eugene", "Allison", "Brandon", "Jon", "Sean", "Connor",
-            "Jenn", "Veronica", "Frankie", "Simran", "Chad", "Rachelle",
-            "Nafis", "Vince", "April", "Michelle", "Jess", "Xzavia"};
+    public static String[] previousStudentsNames = {"Joshina ", "Kevina", "Maggie", "Amy", "Andy", "Gratia",
+            "Josh", "Usha", "barb", "anish", "Yatig", "Sandy",
+            "Jen", "Vero", "Fran", "Simran", "Chad", "Rachin",
+            "Nafy", "Vincent", "Amin", "Michael", "Jessica", "Dave"};
 
     @Bean(name = "currentStudents")
     public Students currentStudents(){
